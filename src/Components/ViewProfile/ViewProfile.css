@@ -1,0 +1,30 @@
+.ReactModal__Content {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+
+/* Styles for the close button */
+.ReactModal__Content .close-button {
+  color: black;
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.ReactModal__Content .submit {
+  background-color: #4caf50; 
+  color: white; 
+  padding: 10px 15px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+.ReactModal__Content .submit:hover{
+  background-color: #45a049;
+}
